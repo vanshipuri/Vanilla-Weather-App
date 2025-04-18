@@ -1,0 +1,252 @@
+body{
+    background-color: rgb(195, 206, 216);
+}
+.weather-app {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: rgb(207, 218, 228);
+}
+.white-left-side {
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;   
+}
+.Grey-right-side  {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: rgb(165, 160, 160);
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+
+}
+
+.city-form{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 0px;
+    padding: 10px;
+    width: 30%;
+    font-size: 12px;
+}
+.search-button {
+    background-color:rgb(195, 206, 216);
+    border: none;
+    border-radius: none;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.weather-info{
+    font-size: 1.5rem;
+    margin-bottom: 1px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.weather-info p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.0rem;
+}
+.weather-result {
+    margin: 0 ;
+    padding: 0px;
+}
+.search-city {
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+   border-radius: 4px;
+   border: 0px solid rgb(0, 0, 0);
+}
+.searched-city-name {
+   position: absolute;
+   top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#searched-city-image {
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.today-week-chart {
+    justify-content: space-evenly;
+    font-size: 1.0rem;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+#celsius {
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+}
+#celsius:hover {
+    background-color: rgb(195, 206, 216);
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#fahrenheit {
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+#fahrenheit:hover {
+    background-color: rgb(195, 206, 216);
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.weekly-weather {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 1.0rem;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.day1 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.day2 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.day3 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.day4 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.day5 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.day6 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.day7 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+.UV-index {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 1.0rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.wind-status{
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 1.0rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sunrise-sunset-time{
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 1.0rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.humidity{
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 1.0rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.visibility{
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 1.0rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.air-quality{
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 1.0rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
