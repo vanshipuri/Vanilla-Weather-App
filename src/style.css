@@ -2,7 +2,8 @@ body{
     background-color: rgb(195, 206, 216);
 }
 .weather-app {
-    max-width: 900px;
+    
+    max-width: 1100px;
     width: 100%;
     margin: 0 auto;
     padding: 20px;
@@ -11,12 +12,17 @@ body{
     background-color: rgb(207, 218, 228);
 }
 .white-left-side {
-    display:flex;
+    display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: left; 
     background-color: rgb(255, 255, 255);
     padding: 20px;
-    border-radius: 10px;   
+    border-radius: 10px;
+    font-size: 1.0rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10 px;
+    color: rgb(0, 0, 0);
+    
 }
 .Grey-right-side  {
     font-size: 2.5rem;
@@ -66,6 +72,7 @@ body{
    border: 0px solid rgb(0, 0, 0);
 }
 .searched-city-name {
+    color: rgb(0, 0, 0);
    position: absolute;
    top: 50%;
     left: 50%;
@@ -110,7 +117,7 @@ body{
 
 .weekly-weather {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 20px;
     font-size: 1.0rem;
     color: rgb(0, 0, 0);
@@ -122,6 +129,7 @@ body{
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
+    height: 100%;
 }
 
 .day2 {
@@ -130,6 +138,7 @@ body{
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
+    height: 100%;
 }
 
 .day3 {
@@ -138,6 +147,7 @@ body{
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
+    height: 100%;
 }
 
 .day4 {
@@ -146,6 +156,7 @@ body{
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
+    height: 100%;
 }
 
 .day5 {
@@ -154,6 +165,7 @@ body{
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
+    height: 100%;
 }
 
 .day6 {
@@ -162,6 +174,7 @@ body{
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
+    height: 100%;
 }
 
 .day7 {
@@ -170,6 +183,7 @@ body{
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
+    height: 100%;
 }
 
 h3 {
@@ -188,6 +202,7 @@ h3 {
     transition: all 0.3s ease-in-out;
     color: rgb(0, 0, 0);
     text-align: left;
+    height: 80%;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -200,18 +215,21 @@ h3 {
     transition: all 0.3s ease-in-out;
     color: rgb(0, 0, 0);
     text-align: left;
+    height: 80%;
     font-family: 'Courier New', Courier, monospace;
 }
 
 .sunrise-sunset-time{
     background-color: rgba(255, 255, 255, 0.8);
-    font-size: 1.0rem;
+    font-size: 0.6rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding: 10px;
     transition: all 0.3s ease-in-out;
     color: rgb(0, 0, 0);
     text-align: left;
+    height: 80%;
+
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -224,6 +242,7 @@ h3 {
     transition: all 0.3s ease-in-out;
     color: rgb(0, 0, 0);
     text-align: left;
+    height: 80%;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -236,6 +255,7 @@ h3 {
     transition: all 0.3s ease-in-out;
     color: rgb(0, 0, 0);
     text-align: left;
+    height: 80%;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -248,5 +268,44 @@ h3 {
     transition: all 0.3s ease-in-out;
     color: rgb(0, 0, 0);
     text-align: left;
+    height: 80%;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.weather-app-data {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 1.0rem;
+    color: rgb(0, 0, 0);
+    cursor: pointer;  
+}
+
+.today-temperature {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#weather-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.weather-app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer {
+display: flex;
+justify-content: center;
+    align-items: center;}
