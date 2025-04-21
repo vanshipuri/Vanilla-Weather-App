@@ -117,7 +117,7 @@ body{
 
 .weekly-weather {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-top: 20px;
     font-size: 1.0rem;
     color: rgb(0, 0, 0);
@@ -129,7 +129,7 @@ body{
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
-    height: 100%;
+    height: 100%
 }
 
 .day2 {
@@ -201,9 +201,17 @@ h3 {
     padding: 10px;
     transition: all 0.3s ease-in-out;
     color: rgb(0, 0, 0);
-    text-align: left;
-    height: 80%;
+    text-align: center;
+    width: 30%;
+    height: 90%;
     font-family: 'Courier New', Courier, monospace;
+}
+
+.UV-index h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
 }
 
 .wind-status{
@@ -214,22 +222,30 @@ h3 {
     padding: 10px;
     transition: all 0.3s ease-in-out;
     color: rgb(0, 0, 0);
-    text-align: left;
-    height: 80%;
+    text-align: center;
+    width: 30%;
+    height: 90%;
     font-family: 'Courier New', Courier, monospace;
+}
+
+.wind-status h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
 }
 
 .sunrise-sunset-time{
     background-color: rgba(255, 255, 255, 0.8);
-    font-size: 0.6rem;
+    font-size: 1.0rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding: 10px;
     transition: all 0.3s ease-in-out;
     color: rgb(0, 0, 0);
-    text-align: left;
-    height: 80%;
-
+    text-align: center;
+    width: 30%;
+    height: 90%;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -241,9 +257,17 @@ h3 {
     padding: 10px;
     transition: all 0.3s ease-in-out;
     color: rgb(0, 0, 0);
-    text-align: left;
-    height: 80%;
+    text-align: center;
+    width: 30%;
+    height: 90%;
     font-family: 'Courier New', Courier, monospace;
+}
+
+.humidity h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
 }
 
 .visibility{
@@ -254,9 +278,17 @@ h3 {
     padding: 10px;
     transition: all 0.3s ease-in-out;
     color: rgb(0, 0, 0);
-    text-align: left;
-    height: 80%;
+    text-align: center;
+    width: 30%;
+    height: 90%;
     font-family: 'Courier New', Courier, monospace;
+}
+
+.visibility h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
 }
 
 .air-quality{
@@ -267,9 +299,17 @@ h3 {
     padding: 10px;
     transition: all 0.3s ease-in-out;
     color: rgb(0, 0, 0);
-    text-align: left;
-    height: 80%;
+    text-align: center;
+    width: 30%;
+    height: 90%;
     font-family: 'Courier New', Courier, monospace;
+}
+
+.air-quality h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
 }
 
 .weather-app-data {
@@ -281,7 +321,26 @@ h3 {
     cursor: pointer;  
 }
 
-.today-temperature {
+.today-temperature-first {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.today-temperature-second {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.today-temperature-third {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
