@@ -57,8 +57,23 @@ body{
 }
 .weather-info p {
     font-size: 0.5rem;
+    margin: 0;
+}
+
+.city-temperature {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+}
+
+.celcius-tag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.9rem;
+    position: relative;
+    top: -50px;
+
 }
 
 
